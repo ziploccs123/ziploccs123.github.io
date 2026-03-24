@@ -3,17 +3,22 @@
 	<head>
 		<title>Fancify Shamcify</title>
 		<script src="fancifymytext.js"></script>
-		<button onclick="makeBigger()">Bigger!</button>
-
-		<!-- link to your script file here -->
-		
 	</head>
 
 	<body>
 		<h1>Fancify my Text</h1>
-		
 
-		<!-- Your UI controls go here -->
-		
+		<!-- Text area -->
+		<fieldset>
+			<legend>Text</legend>
+			<textarea id="textInput" rows="4" cols="30"></textarea>
+		</fieldset>
+
+		<!-- Controls -->
+		<fieldset>
+			<legend>Fancify</legend>
+			<button onclick="makeBigger()">Bigger!</button>
+		</fieldset>
+
 	</body>
 </html>
