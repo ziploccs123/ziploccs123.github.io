@@ -1,1 +1,3 @@
-alert("Hello, world!");
+function makeBigger() {
+    alert("Hello, world!");
+}
